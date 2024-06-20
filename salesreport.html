@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Report</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="leaderboard.html">Leaderboard</a>
+        <a href="product.html">Product</a>
+        <a href="order.html">Order</a>
+        <a href="payment.html">Payment</a>
+        <a href="salesreport.html">Sales Report</a>
+    </div>
+<div class="price-list" id="market-prices">
+        <h2>Harga Pasar Kopi Rasa Buah</h2>
+        <ul>
+            <li>Kopi Rasa Mangga: Rp25.000</li>
+            <li>Kopi Rasa Alpukat: Rp27.000</li>
+            <li>Kopi Rasa Anggur: Rp30.000</li>
+            <li>Kopi Rasa Stroberi: Rp28.000</li>
+            <li>Kopi Rasa Pisang: Rp26.000</li>
+            <li>Kopi Rasa Coklat: Rp32.000</li>
+            <li>Kopi Rasa Permen Karet: Rp29.000</li>
+            <li>Kopi Rasa Kelapa: Rp31.000</li>
+        </ul>
+    </div>
+    <h1>Diagram Penjualan</h1>
+    <canvas id="barChart"></canvas>
+    <br>
+    <canvas id="lineChart"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>

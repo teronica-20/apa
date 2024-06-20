@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <a href="leaderboard.html">Leaderboard</a>
+        <a href="product.html">Product</a>
+        <a href="order.html">Order</a>
+        <a href="payment.html">Payment</a>
+        <a href="salesreport.html">Sales Report</a>
+    </div>
+    <div class="dashboard">
+        <h1>Leaderboard</h1>
+        <div class="leaderboard">
+            <div class="leader">
+                <span class="position">1.</span>
+                <span class="name">John Doe</span>
+                <span class="points">5000 Points</span>
+            </div>
+            <div class="leader">
+                <span class="position">2.</span>
+                <span class="name">Jane Smith</span>
+                <span class="points">4800 Points</span>
+            </div>
+            <div class="leader">
+                <span class="position">3.</span>
+                <span class="name">Michael Johnson</span>
+                <span class="points">4500 Points</span>
+            </div>
+            <div class="leader">
+                <span class="position">4.</span>
+                <span class="name">Emily Brown</span>
+                <span class="points">4200 Points</span>
+            </div>
+            <div class="leader">
+                <span class="position">5.</span>
+                <span class="name">David Wilson</span>
+                <span class="points">4000 Points</span>
+            </div>
+            <!-- Tambahkan lebih banyak pemimpin sesuai kebutuhan -->
+        </div>
+        
+        <div class="reward">
+            <h2>Top Leaderboard Reward</h2>
+            <p>Congratulations to our top leaderboard member! You've earned a 50% discount on your next purchase.</p>
+            <button class="claim-button">Claim Now</button>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const claimButton = document.querySelector('.claim-button');
+        
+        claimButton.addEventListener('click', function() {
+            alert("Selamat kamu mendapatkannya!");
+        });
+    });
+</script>
+
+<h1>Leaderboard Page</h1>
+<p>This is the Leaderboard page.</p>
+</body>
+</html>
